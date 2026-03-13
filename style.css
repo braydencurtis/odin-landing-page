@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-flow: column;
-}
+    flex-flow: column;}
 
 a {
     text-decoration: none;
@@ -14,7 +13,42 @@ ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 16px;
 }
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 600;
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0 0 100px 0;
+    gap: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 900px;
+    flex-basis: 1;
+}
+
 
 .main, .main a {
     background-color: #1f2937;
@@ -26,7 +60,26 @@ ul{
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    padding: 0;
+    margin: 0;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-content {
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+ .hero-image img {
+    width: 400px;
+ }
 
 .logo a {
     font-size: 24px;
