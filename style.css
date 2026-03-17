@@ -32,6 +32,12 @@ button {
     border-radius: 10px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .main {
     display: flex;
     flex-flow: column;
@@ -90,8 +96,9 @@ button {
     flex-flow: column;
     align-items: center;
     gap: 36px;
-    padding-bottom: 72px;
+    padding: 48px 0px 72px;
 }
+
 .characters {
     display: flex;
     flex-flow: row;
@@ -110,4 +117,11 @@ button {
     width: 200px;
     border: 5px solid #3882f6;
     border-radius: 20px;
+}
+
+.quote {
+    font-size: 48px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
