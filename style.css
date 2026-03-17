@@ -125,3 +125,13 @@ h2 {
     flex-flow: column;
     align-items: center;
 }
+
+.quote-container {
+    width: 1200px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.quote-speaker {
+    align-self: flex-end;
+}
