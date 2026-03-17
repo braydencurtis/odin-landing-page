@@ -120,10 +120,19 @@ h2 {
 }
 
 .quote {
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
     display: flex;
     flex-flow: column;
     align-items: center;
+    background-color: #e5e7eb;
+    padding: 150px 0;
+
+}
+.quote-speaker {
+    font-style: normal;
+    font-weight: 700;
 }
 
 .quote-container {
