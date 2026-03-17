@@ -89,11 +89,14 @@ button {
     display: flex;
     flex-flow: column;
     align-items: center;
+    gap: 36px;
+    padding-bottom: 72px;
 }
 .characters {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: center;
+    gap: 36px;
 }
 
 .character {
